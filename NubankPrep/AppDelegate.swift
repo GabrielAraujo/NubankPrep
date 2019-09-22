@@ -13,9 +13,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let rect = UIScreen.main.bounds
+        self.window = UIWindow(frame: rect)
+        self.window?.backgroundColor = UIColor.white
+        window?.rootViewController = GeneratePasswordViewController()
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

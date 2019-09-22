@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9974A492ED74E607CFF97FF8 /* Pods_NubankPrep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC01BCBF976091A27634208 /* Pods_NubankPrep.framework */; };
+		C1E6F1AD2BFC2E4EF61DD120 /* Pods_NubankPrepTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3845876CE8878616FDE60E9F /* Pods_NubankPrepTests.framework */; };
+		D82AAEA21D348D3418B2043A /* Pods_NubankPrepUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4669C97A7E937A7AC26F72 /* Pods_NubankPrepUITests.framework */; };
 		E5C8857F2336BB5E00C63483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C8857E2336BB5E00C63483 /* AppDelegate.swift */; };
 		E5C885812336BB5E00C63483 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885802336BB5E00C63483 /* ViewController.swift */; };
 		E5C885842336BB5E00C63483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C885822336BB5E00C63483 /* Main.storyboard */; };
@@ -14,6 +17,20 @@
 		E5C885892336BB5F00C63483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C885872336BB5F00C63483 /* LaunchScreen.storyboard */; };
 		E5C885942336BB5F00C63483 /* NubankPrepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885932336BB5F00C63483 /* NubankPrepTests.swift */; };
 		E5C8859F2336BB5F00C63483 /* NubankPrepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C8859E2336BB5F00C63483 /* NubankPrepUITests.swift */; };
+		E5C885B22336C01100C63483 /* ViewConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885B12336C01100C63483 /* ViewConfigurator.swift */; };
+		E5C885B62336C07700C63483 /* GeneratePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885B52336C07700C63483 /* GeneratePasswordView.swift */; };
+		E5C885B82336C08D00C63483 /* GeneratePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885B72336C08D00C63483 /* GeneratePasswordViewController.swift */; };
+		E5C885BA2336C12400C63483 /* GeneratePasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885B92336C12400C63483 /* GeneratePasswordViewModel.swift */; };
+		E5C885BF2336C34900C63483 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885BE2336C34800C63483 /* APIConfig.swift */; };
+		E5C885C22336C53D00C63483 /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885C12336C53D00C63483 /* String+extension.swift */; };
+		E5C885C52336C64100C63483 /* PasswordOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885C42336C64100C63483 /* PasswordOption.swift */; };
+		E5C885C72336D14800C63483 /* Float+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885C62336D14800C63483 /* Float+extension.swift */; };
+		E5C885C92336E1F200C63483 /* GeneratePasswordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885C82336E1F200C63483 /* GeneratePasswordRepository.swift */; };
+		E5C885CD2336E72300C63483 /* PasswordOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885CC2336E72300C63483 /* PasswordOptions.swift */; };
+		E5C885CF2336F8BF00C63483 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885CE2336F8BF00C63483 /* Result.swift */; };
+		E5C885D12336FE0C00C63483 /* GeneratedPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885D02336FE0C00C63483 /* GeneratedPassword.swift */; };
+		E5C885D42337084100C63483 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885D32337084100C63483 /* ActivityIndicator.swift */; };
+		E5C885D62337126A00C63483 /* GeneratePasswordViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C885D52337126A00C63483 /* GeneratePasswordViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F668780B0E245B5D766EDA /* Pods-NubankPrepTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubankPrepTests.release.xcconfig"; path = "Target Support Files/Pods-NubankPrepTests/Pods-NubankPrepTests.release.xcconfig"; sourceTree = "<group>"; };
+		3845876CE8878616FDE60E9F /* Pods_NubankPrepTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NubankPrepTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC01BCBF976091A27634208 /* Pods_NubankPrep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NubankPrep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4385BB4EE95D9BF2EE6AAB8E /* Pods-NubankPrepUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubankPrepUITests.release.xcconfig"; path = "Target Support Files/Pods-NubankPrepUITests/Pods-NubankPrepUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A4FB70B6EBDBC1901EDC9A8 /* Pods-NubankPrep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubankPrep.debug.xcconfig"; path = "Target Support Files/Pods-NubankPrep/Pods-NubankPrep.debug.xcconfig"; sourceTree = "<group>"; };
+		5E4669C97A7E937A7AC26F72 /* Pods_NubankPrepUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NubankPrepUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF12AF439B76C054BC651CA /* Pods-NubankPrepUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubankPrepUITests.debug.xcconfig"; path = "Target Support Files/Pods-NubankPrepUITests/Pods-NubankPrepUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCA69B1FD3B6091CFF63C4DC /* Pods-NubankPrep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubankPrep.release.xcconfig"; path = "Target Support Files/Pods-NubankPrep/Pods-NubankPrep.release.xcconfig"; sourceTree = "<group>"; };
+		DA0D676E899A20BC991B3E0E /* Pods-NubankPrepTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubankPrepTests.debug.xcconfig"; path = "Target Support Files/Pods-NubankPrepTests/Pods-NubankPrepTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5C8857B2336BB5E00C63483 /* NubankPrep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NubankPrep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C8857E2336BB5E00C63483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5C885802336BB5E00C63483 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +73,20 @@
 		E5C8859A2336BB5F00C63483 /* NubankPrepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NubankPrepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C8859E2336BB5F00C63483 /* NubankPrepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NubankPrepUITests.swift; sourceTree = "<group>"; };
 		E5C885A02336BB5F00C63483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C885B12336C01100C63483 /* ViewConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfigurator.swift; sourceTree = "<group>"; };
+		E5C885B52336C07700C63483 /* GeneratePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratePasswordView.swift; sourceTree = "<group>"; };
+		E5C885B72336C08D00C63483 /* GeneratePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratePasswordViewController.swift; sourceTree = "<group>"; };
+		E5C885B92336C12400C63483 /* GeneratePasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratePasswordViewModel.swift; sourceTree = "<group>"; };
+		E5C885BE2336C34800C63483 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		E5C885C12336C53D00C63483 /* String+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
+		E5C885C42336C64100C63483 /* PasswordOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordOption.swift; sourceTree = "<group>"; };
+		E5C885C62336D14800C63483 /* Float+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+extension.swift"; sourceTree = "<group>"; };
+		E5C885C82336E1F200C63483 /* GeneratePasswordRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratePasswordRepository.swift; sourceTree = "<group>"; };
+		E5C885CC2336E72300C63483 /* PasswordOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordOptions.swift; sourceTree = "<group>"; };
+		E5C885CE2336F8BF00C63483 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		E5C885D02336FE0C00C63483 /* GeneratedPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedPassword.swift; sourceTree = "<group>"; };
+		E5C885D32337084100C63483 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		E5C885D52337126A00C63483 /* GeneratePasswordViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratePasswordViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9974A492ED74E607CFF97FF8 /* Pods_NubankPrep.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E6F1AD2BFC2E4EF61DD120 /* Pods_NubankPrepTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +110,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82AAEA21D348D3418B2043A /* Pods_NubankPrepUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		049520038DE5F3E3C7B29FD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A4FB70B6EBDBC1901EDC9A8 /* Pods-NubankPrep.debug.xcconfig */,
+				BCA69B1FD3B6091CFF63C4DC /* Pods-NubankPrep.release.xcconfig */,
+				DA0D676E899A20BC991B3E0E /* Pods-NubankPrepTests.debug.xcconfig */,
+				02F668780B0E245B5D766EDA /* Pods-NubankPrepTests.release.xcconfig */,
+				7CF12AF439B76C054BC651CA /* Pods-NubankPrepUITests.debug.xcconfig */,
+				4385BB4EE95D9BF2EE6AAB8E /* Pods-NubankPrepUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2DE83FC0F2AF71BBBD254A62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EC01BCBF976091A27634208 /* Pods_NubankPrep.framework */,
+				3845876CE8878616FDE60E9F /* Pods_NubankPrepTests.framework */,
+				5E4669C97A7E937A7AC26F72 /* Pods_NubankPrepUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E5C885722336BB5E00C63483 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +147,8 @@
 				E5C885922336BB5F00C63483 /* NubankPrepTests */,
 				E5C8859D2336BB5F00C63483 /* NubankPrepUITests */,
 				E5C8857C2336BB5E00C63483 /* Products */,
+				049520038DE5F3E3C7B29FD9 /* Pods */,
+				2DE83FC0F2AF71BBBD254A62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +165,12 @@
 		E5C8857D2336BB5E00C63483 /* NubankPrep */ = {
 			isa = PBXGroup;
 			children = (
+				E5C885C02336C52900C63483 /* Utils */,
+				E5C885BD2336C32300C63483 /* API */,
+				E5C885BC2336C31500C63483 /* Repository */,
+				E5C885AF2336BFF600C63483 /* ViewModel */,
+				E5C885AE2336BFF000C63483 /* View */,
+				E5C885AD2336BFE900C63483 /* Model */,
 				E5C8857E2336BB5E00C63483 /* AppDelegate.swift */,
 				E5C885802336BB5E00C63483 /* ViewController.swift */,
 				E5C885822336BB5E00C63483 /* Main.storyboard */,
@@ -112,6 +186,7 @@
 			children = (
 				E5C885932336BB5F00C63483 /* NubankPrepTests.swift */,
 				E5C885952336BB5F00C63483 /* Info.plist */,
+				E5C885D52337126A00C63483 /* GeneratePasswordViewModelTests.swift */,
 			);
 			path = NubankPrepTests;
 			sourceTree = "<group>";
@@ -125,6 +200,101 @@
 			path = NubankPrepUITests;
 			sourceTree = "<group>";
 		};
+		E5C885AD2336BFE900C63483 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5C885CC2336E72300C63483 /* PasswordOptions.swift */,
+				E5C885D02336FE0C00C63483 /* GeneratedPassword.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5C885AE2336BFF000C63483 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5C885C32336C61900C63483 /* Components */,
+				E5C885B42336C05C00C63483 /* Controller */,
+				E5C885B32336C05500C63483 /* View */,
+				E5C885B02336C00200C63483 /* Configuration */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5C885AF2336BFF600C63483 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E5C885B92336C12400C63483 /* GeneratePasswordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E5C885B02336C00200C63483 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E5C885B12336C01100C63483 /* ViewConfigurator.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E5C885B32336C05500C63483 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5C885B52336C07700C63483 /* GeneratePasswordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5C885B42336C05C00C63483 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5C885B72336C08D00C63483 /* GeneratePasswordViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5C885BC2336C31500C63483 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E5C885C82336E1F200C63483 /* GeneratePasswordRepository.swift */,
+				E5C885CE2336F8BF00C63483 /* Result.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E5C885BD2336C32300C63483 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E5C885BE2336C34800C63483 /* APIConfig.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E5C885C02336C52900C63483 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E5C885D22337083400C63483 /* Rx */,
+				E5C885C12336C53D00C63483 /* String+extension.swift */,
+				E5C885C62336D14800C63483 /* Float+extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E5C885C32336C61900C63483 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E5C885C42336C64100C63483 /* PasswordOption.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E5C885D22337083400C63483 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				E5C885D32337084100C63483 /* ActivityIndicator.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +302,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5C885A32336BB5F00C63483 /* Build configuration list for PBXNativeTarget "NubankPrep" */;
 			buildPhases = (
+				35B87EE6A1DD5830438FC9FB /* [CP] Check Pods Manifest.lock */,
 				E5C885772336BB5E00C63483 /* Sources */,
 				E5C885782336BB5E00C63483 /* Frameworks */,
 				E5C885792336BB5E00C63483 /* Resources */,
+				9DB290E8A030B79B8B6836C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +321,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5C885A62336BB5F00C63483 /* Build configuration list for PBXNativeTarget "NubankPrepTests" */;
 			buildPhases = (
+				00D68A444306C3E408E7AE25 /* [CP] Check Pods Manifest.lock */,
 				E5C8858B2336BB5F00C63483 /* Sources */,
 				E5C8858C2336BB5F00C63483 /* Frameworks */,
 				E5C8858D2336BB5F00C63483 /* Resources */,
+				7D8DA4DDDC7352E513A260C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,9 +341,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5C885A92336BB5F00C63483 /* Build configuration list for PBXNativeTarget "NubankPrepUITests" */;
 			buildPhases = (
+				7F184F312BDEA15EAA4BCF7B /* [CP] Check Pods Manifest.lock */,
 				E5C885962336BB5F00C63483 /* Sources */,
 				E5C885972336BB5F00C63483 /* Frameworks */,
 				E5C885982336BB5F00C63483 /* Resources */,
+				4A5F6B1C554B11EA284B00D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +427,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00D68A444306C3E408E7AE25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NubankPrepTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35B87EE6A1DD5830438FC9FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NubankPrep-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A5F6B1C554B11EA284B00D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NubankPrepUITests/Pods-NubankPrepUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NubankPrepUITests/Pods-NubankPrepUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NubankPrepUITests/Pods-NubankPrepUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D8DA4DDDC7352E513A260C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NubankPrepTests/Pods-NubankPrepTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NubankPrepTests/Pods-NubankPrepTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NubankPrepTests/Pods-NubankPrepTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F184F312BDEA15EAA4BCF7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NubankPrepUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DB290E8A030B79B8B6836C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NubankPrep/Pods-NubankPrep-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NubankPrep/Pods-NubankPrep-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NubankPrep/Pods-NubankPrep-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5C885772336BB5E00C63483 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C885D12336FE0C00C63483 /* GeneratedPassword.swift in Sources */,
+				E5C885D42337084100C63483 /* ActivityIndicator.swift in Sources */,
+				E5C885C22336C53D00C63483 /* String+extension.swift in Sources */,
+				E5C885CF2336F8BF00C63483 /* Result.swift in Sources */,
+				E5C885BA2336C12400C63483 /* GeneratePasswordViewModel.swift in Sources */,
+				E5C885C52336C64100C63483 /* PasswordOption.swift in Sources */,
 				E5C885812336BB5E00C63483 /* ViewController.swift in Sources */,
 				E5C8857F2336BB5E00C63483 /* AppDelegate.swift in Sources */,
+				E5C885CD2336E72300C63483 /* PasswordOptions.swift in Sources */,
+				E5C885B82336C08D00C63483 /* GeneratePasswordViewController.swift in Sources */,
+				E5C885C92336E1F200C63483 /* GeneratePasswordRepository.swift in Sources */,
+				E5C885B62336C07700C63483 /* GeneratePasswordView.swift in Sources */,
+				E5C885B22336C01100C63483 /* ViewConfigurator.swift in Sources */,
+				E5C885C72336D14800C63483 /* Float+extension.swift in Sources */,
+				E5C885BF2336C34900C63483 /* APIConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +574,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C885D62337126A00C63483 /* GeneratePasswordViewModelTests.swift in Sources */,
 				E5C885942336BB5F00C63483 /* NubankPrepTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +740,9 @@
 		};
 		E5C885A42336BB5F00C63483 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4FB70B6EBDBC1901EDC9A8 /* Pods-NubankPrep.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TFUERAK9UX;
@@ -448,7 +760,9 @@
 		};
 		E5C885A52336BB5F00C63483 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA69B1FD3B6091CFF63C4DC /* Pods-NubankPrep.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TFUERAK9UX;
@@ -466,8 +780,9 @@
 		};
 		E5C885A72336BB5F00C63483 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0D676E899A20BC991B3E0E /* Pods-NubankPrepTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TFUERAK9UX;
@@ -487,8 +802,9 @@
 		};
 		E5C885A82336BB5F00C63483 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F668780B0E245B5D766EDA /* Pods-NubankPrepTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TFUERAK9UX;
@@ -508,8 +824,9 @@
 		};
 		E5C885AA2336BB5F00C63483 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF12AF439B76C054BC651CA /* Pods-NubankPrepUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TFUERAK9UX;
 				INFOPLIST_FILE = NubankPrepUITests/Info.plist;
@@ -528,8 +845,9 @@
 		};
 		E5C885AB2336BB5F00C63483 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4385BB4EE95D9BF2EE6AAB8E /* Pods-NubankPrepUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TFUERAK9UX;
 				INFOPLIST_FILE = NubankPrepUITests/Info.plist;
